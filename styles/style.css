@@ -1,0 +1,173 @@
+/* 
+Fonts:
+- Inter
+margin from left is 40px 
+colors:
+*/
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+h1 {
+    color: black;
+    font-family: "Inter";
+    font-size: 100px;
+    font-weight: 600;
+}
+
+h2 {
+    color: black;
+    font-family: "Inter";
+    font-size: 70px;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px;
+}
+
+h3 {
+    color: black;
+    font-family: "Inter";
+    font-size: 40px;
+    font-weight: 600;
+}
+
+p {
+    color: black;
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.text-white{
+	color: white;
+}
+
+.two-column{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.hero-columns{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 50px;
+}
+
+.margin-100{
+	margin-left: 100px;
+}
+
+/* Menu Navigation Layout*/
+
+.nav-layout {
+	grid-template: 1fr / 1fr 1fr;
+}
+
+
+.menu-list{
+	margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-link{
+	margin-left: 40px;
+	font-family: "Inter", sans-serif;
+	color: white;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.nav-link a:link{
+	color: white;
+	text-decoration: none;
+}
+
+
+.nav-link a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+.nav-link a:hover{
+	color: #D51F37;
+	
+}
+
+.top-nav{
+	background-color: #34111A;
+	display: flex;
+	justify-content: right;
+	padding-top: 34px;
+	padding-bottom: 14px;
+	padding-right: 100px;
+	font-size: 15px;
+}
+
+.bottom-nav-layout{
+	display: flex;
+	flex-direction: row;
+}
+
+#bottom-nav-logo{
+	background-color: #8B2331;
+	padding-left: 40px;
+	flex:1;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	
+}
+
+.bottom-nav{
+	background-color: #8B2331;
+	justify-items: right;
+	padding-top: 60px;
+	font-size: 20px;
+	flex:1;
+	padding-right: 40px;
+}
+
+
+
+/* Hero section layout */
+.hero-background{
+	background-image: url(../images/Hero-Img.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative; 
+  background-position: center;
+  padding: 116px 54px 116px 0px;
+
+}
+
+.hero-message{
+	grid-template-rows: 1fr 1fr 1fr;
+  background-color: rgba(154,37,59, 0.5);
+  border-radius: 25px;
+  margin: 30px 54px 0px 400px;
+ 	padding: 40px;
+ 	row-gap: 10px;
+}
+
+.hero-message a:link{
+	color: white;
+	text-decoration: none;
+}
+
+.hero-message a:visited{
+	color: white;
+	text-decoration: none;
+}
+
+.hero-message a:hover{
+	color: #D51F37;
+	
+}
+
+
+
+
