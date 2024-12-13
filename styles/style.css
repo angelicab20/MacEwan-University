@@ -13,37 +13,59 @@ colors:
 }
 
 h1 {
-    color: black;
-    font-family: "Inter";
-    font-size: 100px;
-    font-weight: 600;
+  color: black;
+  font-family: "Inter";
+  font-size: 130px;
+  font-weight: 600;
+  color: #8B2331;
 }
 
 h2 {
-    color: black;
-    font-family: "Inter";
-    font-size: 70px;
-    font-weight: 600;
-    margin: 0px;
-    padding: 0px;
+  color: black;
+  font-family: "Inter";
+  font-size: 80px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+  color: white;
 }
 
 h3 {
-    color: black;
-    font-family: "Inter";
-    font-size: 40px;
-    font-weight: 600;
+  color: black;
+  font-family: "Inter";
+  font-size: 60px;
+  font-weight: 600;
+}
+
+h4{
+  color: black;
+  font-family: "Inter";
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 0px;
+}
+
+h5{
+	color: black;
+  font-family: "Inter";
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 0px;
 }
 
 p {
-    color: black;
-    font-family: "Inter";
-    font-size: 16px;
-    font-weight: normal;
+  color: black;
+  font-family: "Inter";
+  font-size: 17px;
+  font-weight: normal;
+}
+
+a{
+	text-decoration: none;
 }
 
 .text-white{
-	color: white;
+	color: white !important;
 }
 
 .two-column{
@@ -51,11 +73,6 @@ p {
 	grid-template-columns: 1fr 2fr;
 }
 
-.hero-columns{
-	display: grid;
-	grid-template-columns: 1fr 2fr;
-	column-gap: 50px;
-}
 
 .margin-100{
 	margin-left: 100px;
@@ -79,21 +96,17 @@ p {
 	font-family: "Inter", sans-serif;
 	color: white;
 	list-style-type: none;
-	text-decoration: none;
 }
 
-.nav-link a:link{
+.nav-link :link{
 	color: white;
-	text-decoration: none;
 }
 
-
-.nav-link a:visited{
+.nav-link :visited{
 	color: white;
-	text-decoration: none;
 }
 
-.nav-link a:hover{
+.nav-link :hover{
 	color: #D51F37;
 	
 }
@@ -134,6 +147,13 @@ p {
 
 
 /* Hero section layout */
+.hero-columns{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 50px;
+
+}
+
 .hero-background{
 	background-image: url(../images/Hero-Img.png);
   background-size: cover;
@@ -153,21 +173,242 @@ p {
  	row-gap: 10px;
 }
 
-.hero-message a:link{
-	color: white;
-	text-decoration: none;
+
+.hero-link{
+	font-family: "Inter";
+	font-size: 20px;
+	color: white !important;
 }
 
-.hero-message a:visited{
-	color: white;
-	text-decoration: none;
+.hero-link :link{
+	color:white;
 }
 
-.hero-message a:hover{
+.hero-link :visited{
+	color:white;
+}
+
+.hero-link :hover{
 	color: #D51F37;
+}
+
+/*Explore MacEwan*/
+.explore-columns{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 156px;
+	padding-bottom: 106px;
+}
+.explore-title{
+	grid-template-rows: 1fr 1fr;
+	justify-content: space-evenly;
+	align-items: center;
+	line-height: 64px;
+	padding-top: 80px;
 	
 }
 
+.explore-message p{
+	grid-template-rows: 1fr 1fr;
+	margin-right: 80px;
+	padding: 137px 84px 0px 0px;
+	align-items: center;
+	font-size: 22px;
+	row-gap: 20px;
+	font-weight: 500;
+}
 
+
+.explore-link{
+	font-family: "Inter";
+	font-size: 25px;
+	font-weight: 600;
+	color: black;
+}
+
+.explore-link :link{
+	color:black;
+}
+
+.explore-link :visited{
+	color:black;
+}
+
+.explore-link :hover{
+	color: #D51F37;
+}
+
+
+/*Information Section*/
+.info-columns{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #9A253B;
+	column-gap: 100px;
+	padding: 105px 100px 105px 100px;
+}
+
+.round-img{
+	border-radius: 25px;
+}
+
+.btn-text{
+	color: white;
+	font-size: 30px;
+	font-family: "Inter";
+	font-weight: 400;
+}
+
+.text-column{
+	display: flex;
+	flex-direction: column;
+	row-gap: 23px;
+}
+
+.program-btn{
+	background-color: #D51F37;
+	width: 280px;
+	height: 60px;
+	border-radius: 25px;
+	border-style: none;
+}
+
+.program-btn :hover{
+	color: #34111A;
+}
+
+.info-columns-color{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	background-color: #8B2331;
+	column-gap: 100px;
+	padding: 105px 100px 105px 100px;
+}
+
+.btn-style{
+	background-color: #D51F37;
+	width: 318px;
+	height: 78px;
+	border-radius: 25px;
+	border-style: none;
+}
+
+.btn-style :hover{
+	color: #34111A;
+}
+
+.btn-gap{
+	display: flex;
+	flex-direction: column;
+	row-gap: 15px;
+}
+
+/*Start your application*/
+.rectangle-border{
+	margin: 80px 47px 173px 47px;
+	border-style: solid;
+	border-width: thick;
+	border-color: #D51F37;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: 0;
+	justify-content: space-around;
+	padding: 46px 0px 46px 0px;
+
+}
+
+.btn-style-1{
+	background-color: #8B2331;
+	width: 318px;
+	height: 78px;
+	border-radius: 25px;
+	border-style: none;
+	font-family: "Inter";
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+}
+
+.btn-style-1 :hover{
+	color: #D51F37;
+}
+
+.btn-grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 46px;
+}
+
+/*More*/
+.two-rows{
+	display: flex;
+	flex-direction: column;
+	padding-right: 100px;
+	padding-bottom: 100px;
+	
+}
+
+.two-columns{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	column-gap: 104px;
+}
+
+.flex-col{
+	display: flex;
+	flex-direction: column;
+	justify-content: left;
+}
+
+
+.flex-col a :hover{
+	color: #8B2331;
+}
+
+
+
+
+/*Footer*/
+.four-columns{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	column-gap: 100px;
+	padding: 52px 0px 52px 0px;
+	padding-right: 90px;
+}
+
+.info-logo{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.text-space p{
+	display: flex;
+	flex-direction: column;
+	line-height: 5px;
+
+}
+
+.link-style {
+	
+}
+
+.footer-message p a{
+	color: white;
+}
+
+.title-bold-underline{
+	font-size: 24px;
+	font-weight: 600;
+	border-bottom: solid;
+	width: 140px;
+}
+
+.title-bold{
+	font-size: 24px;
+	font-weight: 600;
+}
 
 
