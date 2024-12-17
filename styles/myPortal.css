@@ -109,6 +109,10 @@ ul{
   color: #D51F37;
 }
 
+.hidden-hamburger{
+  display: none;
+}
+
 /*Quick links*/
 
 .margin-100{
@@ -147,7 +151,7 @@ ul{
   padding-left: 16px;
 }
 
-.link h5{
+.link h6{
   color: white;
 }
 
@@ -175,9 +179,7 @@ ul{
 .notices-title{
   padding-bottom: 10px;
 }
-.notices-title h2{
-  color: #8B2331;
-}
+
 
 .notice-display{
   display: flex;
@@ -208,14 +210,19 @@ ul{
 }
 
 /*What's On*/
+
+.hidden-dots{
+  display: none;
+}
 .what-on-title h2{
   color: #8B2331;
 }
-.academic-sched{
+
+.calendar-title{
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   margin-right: 140px;
+  justify-content: space-between;
 
 }
 
@@ -224,6 +231,7 @@ ul{
   flex-direction: row;
   margin-right: 140px;
 }
+
 .box{
   display: flex;
   flex-direction: column;
@@ -271,3 +279,235 @@ ul{
   font-weight: 600;
 }
 
+.event-calendar{
+  margin: 70px 0px 84px 0px;
+}
+
+
+/*News*/
+
+.title h2{
+  color: #8B2331;
+}
+
+.news-display{
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  row-gap: 40px;
+}
+
+.news-post{
+  display: flex;
+  flex-direction: row;
+  column-gap: 74px;
+}
+
+.news-info{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+
+}
+.news-title p{
+  font-size: 35px;
+  font-weight: 600;
+  margin-top: 0px;
+}
+
+.read-link a{
+  text-decoration: underline;
+}
+.read-link a:visited{
+  color: black;
+}
+
+.read-link a:hover{
+  color: #D51F37;
+}
+
+.read-link p{
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 0;
+}
+
+.date p{
+  font-size: 25px;
+}
+
+/*Footer*/
+.red-bg{
+  background-color: #8B2331;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 200px;
+  margin-top: 67px;
+}
+
+.title-white h1{
+  color: white;
+  line-height: 0.5em;
+}
+
+.footer-message{
+  margin-right: 84px;
+}
+.footer-message p{
+  color: white;
+}
+
+.title-bold{
+  font-size: 24px;
+  font-weight: 600;
+}
+.bottom-color{
+  background-color: #34111A;
+  width: 100%;
+  height: 100px;
+}
+
+/*Breakpoint for mobile*/
+@media screen and (max-width: 768px) {  
+  .space-navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 20px 0px 20px;
+  }
+
+  .hide-menu{
+    display: none;
+  }
+
+  .hidden-hamburger{
+    display: flex;
+  }
+
+  .margin-100{
+    margin-left: 20px;
+  }
+
+  .column-links{
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 20px;
+  }
+
+  .link{
+    width: 360px;
+    height: 40px;
+  }
+
+  .link h6{
+    font-size: 20px;
+  }
+
+  .link img{
+    height: 20px;
+  }
+
+  .right-links{
+    margin-left: 20px;
+  }
+
+  .title h2{
+    font-size: 40px;
+  }
+
+  .calendar-title{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: left;
+    justify-self: center;
+  }
+
+  .hide-box{
+    display: none;
+  }
+
+  .boxes-display{
+    display: flex;
+    flex-direction: column;
+    margin-right: 0px;
+    padding: 0px 72px 0px 72px;
+  }
+  .no-rightborder{
+    border-right-style: solid;
+    height: 250px;
+    width: auto;
+    justify-content: space-between;
+    
+  }
+
+  .box-text{
+    padding-bottom: 96px;
+  }
+  .box-text p{
+    font-size: 16px;
+  }
+
+  .hidden-dots{
+    display: flex;
+    justify-self: center;
+    padding-top: 15px;
+  }
+
+  .mini-box{
+    width: 45px;
+    height: 45px;
+
+  }
+  .mini-box h4{
+    margin-top: 20px;
+    font-size: 20px;
+
+  }
+
+  .news-post{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .news-title p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+  }
+
+  .read-link p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 0;
+  }
+
+  .date p{
+    font-size: 20px;
+  }
+  .hide-post{
+    display: none;
+  }
+  .red-bg{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 0px 50px 0px 50px;
+
+  }
+
+  .title-white h1{
+    color: white;
+    line-height: 0.5em;
+    font-size: 50px;
+
+  }
+
+  .footer-message{
+    margin-right: 0px;
+    
+  }
+
+
+}

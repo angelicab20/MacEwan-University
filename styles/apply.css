@@ -105,6 +105,16 @@ ul{
   
 }
 
+.nav-link-page{
+  margin-left: 40px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  list-style-type: none;
+}
+.nav-link-page :visited{
+  color: #D51F37;
+}
+
 .nav-link{
 	margin-left: 40px;
 	font-family: "Inter", sans-serif;

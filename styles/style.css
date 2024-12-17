@@ -250,7 +250,9 @@ nav.nav-layout{
 
 
 /*Information Section*/
-
+.image-style img{
+	border-radius: 40px;
+}
 .mobile-img-programs{
 	display: none;
 }
@@ -584,20 +586,21 @@ nav.nav-layout{
 		padding: 0px 0px 36px 0px;
 	}
 
+
 	.mobile-img-events{
 		display: flex;
 	}
-	.mobile-img-programs{
-	display: flex;
+
+	.hide-img{
+		display: none;
+	}
+	
+	.image-style img{
+	border-radius: 0px;
+	width: 100%;
+	height: auto;
 	}
 
-	.mobile-img-news{
-	display: flex;
-	}
-
-	.hidden-img{
-	display: none;
-	}
 
 	.btn-style{
 		width: 174px;
@@ -664,6 +667,12 @@ nav.nav-layout{
     display: flex;
     flex-direction: row;
     column-gap: 11px;
+  }
+
+
+  .flex-col img{
+  	width: 100%;
+  	height: auto;
   }
 
 
