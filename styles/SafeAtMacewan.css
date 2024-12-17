@@ -117,6 +117,9 @@ ul{
   color: white;
   list-style-type: none;
 }
+.nav-link-page :link{
+  color: #D51F37;
+}
 .nav-link-page :visited{
   color: #D51F37;
 }
