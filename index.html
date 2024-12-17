@@ -18,57 +18,61 @@
 </head>
 <body>
 	<!--Navigation-->
-	<nav class="nav-layout logo-nav">
+	<header>
+		<nav class="nav-layout">
 
-		<!--Top Navigation (Darker red section)-->
+			<!--Top Navigation (Darker red section)-->
 
-		<div class="top-nav nav-layout">
-			<div>
-				
-			</div>
-			<ul class="menu-list">
-				<li class="nav-link"><a href="#">Apply</a></li>
-				<li class="nav-link"><a href="#">Safe at MacEwan</a></li>
-				<li class="nav-link"><a href="#">Give</a></li>
-				<li class="nav-link"><a href="#">Contact Us</a></li>
-				<li class="nav-link"><a href="#">myPortal</a></li>
-			</ul>
-		</div>
+			<div class="top-nav nav-layout hide-top-nav">
 
-		<!--Bottom Navigation (red section)-->
-		<div class="bottom-nav-layout">
-
-			<div id="bottom-nav-logo">
-				<img src="images/Logo-Nav.png" alt="MacEWan University logo" width="250" height="80">
-			</div>
-
-			<div class="bottom-nav">
 				<ul class="menu-list">
-					<li class="nav-link"><a href="#">About</a></li>
-					<li class="nav-link"><a href="#">Academics</a></li>
-					<li class="nav-link"><a href="#">Admission</a></li>
-					<li class="nav-link"><a href="#">Campus Life</a></li>
-					<li class="nav-link"><a href="#">Visit</a></li>
-					<li class="nav-link"><a href="#"><img src="images/Search.svg" alt="Search logo"></a></li>
+					<li class="nav-link"><a href="#">Apply</a></li>
+					<li class="nav-link"><a href="#">Safe at MacEwan</a></li>
+					<li class="nav-link"><a href="#">Give</a></li>
+					<li class="nav-link"><a href="#">Contact Us</a></li>
+					<li class="nav-link"><a href="#">myPortal</a></li>
 				</ul>
 			</div>
-		</div>
 
-	</nav>
+			<!--Bottom Navigation (red section)-->
+			<div class="bottom-nav-layout">
+
+				<div id="bottom-nav-logo">
+					<img src="images/Logo-Nav.png" alt="MacEWan University logo" width="250" height="80">
+				</div>
+
+				<div class="bottom-nav">
+					<div class="mobile-hamburger">
+						<a href="#"><img src="images/Hamburger-icon.png" width="30" height="20"></a>
+					</div>
+
+					<ul class="menu-list hide-top-menu">
+						<li class="nav-link"><a href="#">About</a></li>
+						<li class="nav-link"><a href="#">Academics</a></li>
+						<li class="nav-link"><a href="#">Admission</a></li>
+						<li class="nav-link"><a href="#">Campus Life</a></li>
+						<li class="nav-link"><a href="#">Visit</a></li>
+						<li class="nav-link"><a href="#"><img src="images/Search.svg" alt="Search logo"></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</nav>
+	</header>
 	<!--Hero section-->
 	<section class="hero-background hero-columns"> 
 		<div class="margin-100">
 			
 		</div>
-		<div class="hero-message">
-			<div>
+		<div class="hero-message hide-text">
+			<div class="hide-text">
 				<h2 class="text-white">Open House</h2>
 			</div>
-			<div>
+			<div class="hide-text">
 				<p class="text-white">Join us on Saturday, November 2, 2024, for information sessions, program displays, campus tours and student performances. Connect with faculty and ask questions. Find out what activities, clubs and services are available. Discover what inspires you.
 				</p>
 			</div>
-			<div class="hero-link">
+			<div class="hero-link hide-message">
 				<a href="#">Learn more ></a>
 				
 			</div>
@@ -79,8 +83,8 @@
 
 	<!--Start of Explore MacEwan-->
 	<section class="explore-columns">
-		<div class="explore-title margin-100">
-			<div>
+		<div>
+			<div class="space-between">
 				<h1>Explore</h1>
 			</div>
 			<div>
@@ -89,8 +93,8 @@
 			
 		</div>
 
-		<div>
-			<div class="explore-message">
+		<div class="explore-message">
+			<div>
 				<p class="bold-message">Our student-centred approach to learning evolves to meet your needs. Full-time or part-time studies, in-person or online, future-focused and adaptive—our programs provide you with the skills, creativity and experience you need to thrive in your community and be successful in your career.</p>
 			</div>
 		
@@ -103,8 +107,13 @@
 
 	<!-- Start of Program section-->
 	<section class="info-columns">
-		<div>
-			<img class="round-img" src="images/Our-Program.png">
+
+		<div class="mobile-img-programs">
+			<img src="images/Mobile-Our-Program.png" alt="MacEwan students looking at a computer" width="100%">
+			
+		</div>
+		<div class="hidden-img">
+			<img src="images/Our-Program.png" alt="MacEwan students looking at a computer">
 			
 		</div>
 		<div class="text-column">
@@ -119,9 +128,14 @@
 	<!-- End of Program section-->
 
 	<!--Start of Events section-->
-	<section class="info-columns-color">
+	<section class="info-columns-events">
+		<div class="mobile-img-events">
+			<img src="images/Mobile-Events.png" width="100%">
+			
+		</div>
 
 		<div class="text-column">
+
 			<h2>Events</h2>
 
 			<p class="text-white">There’s so much happening at MacEwan University. Visiting speakers, student presentations, Griffins games, theatre and musical performances, art exhibits, SAMU events—and so much more.</p>
@@ -135,8 +149,8 @@
 			
 		</div>
 
-		<div>
-			<img src="images/Events.png">
+		<div class="hidden-img">
+			<img src="images/Events.png" alt="A group of MacEwan student volunteers at Open House ">
 		</div>
 		
 	</section>
@@ -145,8 +159,12 @@
 	<!--Start of News section-->
 	<section class="info-columns">
 
-		<div>
-			<img src="images/News.png">
+		<div class="mobile-img-news">
+			<img src="images/Mobile-News.png" width="100%">
+			
+		</div>
+		<div class="hidden-img">
+			<img src="images/News.png" alt="Lady in a pink blazer">
 		</div>
 
 		<div class="text-column">
@@ -188,12 +206,12 @@
 			
 			<div class="two-columns">
 				<div class="flex-col more-link">
-					<img src="images/Residency.png">
+					<img src="images/Residency.png" alt="Image of the front of MacEwan residency building">
 					<a href="#"><h5>Residency</h5></a>
 				</div>
 
 				<div class="flex-col">
-					<img src="images/Opportunities.png">
+					<img src="images/Opportunities.png" alt="Two MacEwan students smiling at each other, wearing the MacEwan hoodies.">
 					<a href="#"><h5>Opportunities</h5></a>
 				</div>
 				
@@ -207,12 +225,12 @@
 			
 			<div class="two-columns">
 				<div class="flex-col">
-					<img src="images/Griffins.png">
+					<img src="images/Griffins.png" alt="MacEwan hockey player on the rink">
 					<a href="#"><h5>MacEwan Griffins</h5></a>
 				</div>
 
 				<div class="flex-col">
-					<img src="images/Griffins-1.png">
+					<img src="images/Griffins-1.png" alt="MacEwan volleyball game">
 				</div>
 			</div>
 		</div>
@@ -229,36 +247,40 @@
 					<p class="text-white">10700 104 Ave N</p>
 					<p class="text-white">Edmonton, AB T5J 4S2</p>
 				</div>
-				<div class="text-space link-style">
-					<a href="#"><p class="text-white">info@macewan.ca</p></a>
-					<a href="#"><p class="text-white">MacEwan.ca/ContactUs</p></a>
+				<div class="text-space footer-links">
+					<a href="#"><p>info@macewan.ca</p></a>
+					<a href="#"><p>MacEwan.ca/ContactUs</p></a>
 				</div>
 
 			</div>
-			<div>
+			<div class="center-items">
 				<div>
-					<p class="title-bold-underline">Quick Links</p>
+					<p class="quick-links-underline">Quick Links</p>
 				</div>
-				<div class="text-white">
-					<li><a href="#">Contact Us</a></li>
-					<li><a href="#">Admission</a></li>
-					<li><a href="#">Current Students</a></li>
-					<li><a href="#">Programs</a></li>
-					<li><a href="#">Library</a></li>
+				<div>
+					<ul class="quick-links">
+						<li><a href="#">Contact Us</a></li>
+						<li><a href="#">Admission</a></li>
+						<li><a href="#">Current Students</a></li>
+						<li><a href="#">Programs</a></li>
+						<li><a href="#">Library</a></li>
+					</ul>
 				</div>
 			</div>
 
-			<div class="text-space">
+			<div class="center-items">
 				<div>
-					<p class="title-bold-underline">Socials</p>
+					<p class="social-links-underline">Socials</p>
 				</div>
-				<div class="text-space">
-					<li><a href="#"><img src="images/Instagram.svg"></a></li>
-					<li><a href="#"><img src="images/Facebook.svg"></a></li>
-					<li><a href="#"><img src="images/X.svg"></a></li>
-					<li><a href="#"><img src="images/Youtube.svg"></a></li>
-					<li><a href="#"><img src="images/Tiktok.svg"></a></li>
-					<li><a href="#"><img src="images/Linkdin.svg"></a></li>
+				<div>
+					<ul class="social-links">
+						<li><a href="#"><img src="images/Instagram.svg" alt="Instagram icon"></a></li>
+						<li><a href="#"><img src="images/Facebook.svg" alt="Facebook icon"></a></li>
+						<li><a href="#"><img src="images/X.svg" alt="X icon"></a></li>
+						<li><a href="#"><img src="images/Youtube.svg"alt="YouTube icon"></a></li>
+						<li><a href="#"><img src="images/Tiktok.svg" alt="TikTok icon"></a></li>
+						<li><a href="#"><img src="images/Linkdin.svg"alt="Linkdin icon"></a></li>
+					</ul>
 				</div>
 				
 			</div>
